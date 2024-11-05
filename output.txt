@@ -1,0 +1,19 @@
+null	MNT	null	null
+1	INCR	1	1
+2	DECR	5	4
+null	MDT
+1	MOVER #3,#1,
+2	ADD #3,#2,
+3	MOVEM #3,#1,
+4	MEND
+5	MOVER #6,#4,
+6	SUB #6,#5,
+7	MOVEM #6,#5,
+8	MEND
+null	ALA
+1	&X
+2	&Y
+3	&REG
+4	&A
+5	&B
+6	&REG_
